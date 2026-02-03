@@ -29,3 +29,6 @@ target: pandas Series hoặc DataFrame (tùy số lượng cột nhãn)
 ```n_samples, n_features  = data.shape ```
 chúng ta có thể hiểu như sau n_smaples gọi là ảnh, còn n_feature là đặc trưng gắn cho 2 giá trị của dữ liệu 2 chiều ```data.shape(số ảnh, số đặc trưng mỗi ảnh)``` 
 ```dataset digits có ảnh 8×8 = 64 pixel → 64 features```
+
+``` n_digits = np.unique(labels).size
+- np.unique(labels).size lấy các giá trị không trùng tức là lấy các số từ 0-9 mà không trung nhau và .size đếm nó
