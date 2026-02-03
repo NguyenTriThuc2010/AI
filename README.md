@@ -8,3 +8,5 @@ n_samples, n_features  = data.shape
 n_digits = np.unique(labels).size
 
 print(f"# digits: {n_digits}; # samples: {n_samples}; # features {n_features}")
+
+data, labels lần lượt nhận giá trị của X và y, return_X_y=true chả về x và y với thông tin được rút ngắn
