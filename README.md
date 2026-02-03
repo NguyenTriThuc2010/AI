@@ -1,4 +1,4 @@
-# AI
+# clustering 
 ```Python
 import numpy as np
 
